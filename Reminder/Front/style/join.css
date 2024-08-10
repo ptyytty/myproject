@@ -1,0 +1,41 @@
+body{
+    font-family: "Roboto";
+    padding-left: 30px;
+}
+
+.hello{
+    margin-top: 50px;
+}
+
+.id,
+.password{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.enterid,
+.enterpassword{
+    height: 26px;
+    width: 180px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    text-indent: 8px;
+}
+
+.submit{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.submit:hover{
+    background-color: rgb(209, 209, 0);
+    color: black;
+}

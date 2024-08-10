@@ -2,8 +2,22 @@
 <html>
     <head>
         <title>join</title>
+
+        <link rel="stylesheet" href="style/join.css">
+        
+        <script src="script/join.js"></script>
     </head>
     <body>
-        <h1>Thank you for joining us!!!</h1>
+        <h1 class="hello">Thank you for joining us!!!</h1>
+        <div class="id">
+            <p>ID</p>
+            <input id="id" class="enterid" type="text" placeholder="Enter your ID">
+        </div>
+        <div class="password">
+            <p>Password</p>
+            <input id="pws" class="enterpassword" type="password" placeholder="Enter your Password">
+        </div>
+
+        <button onclick="submit()" class="submit">Submit</button>
     </body>
 </html>
